@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Full Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">
+      <i class="fas fa-code"></i> WebSite
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="highlight">John Doe</span></h1>
+      <h2>Full Stack Web Developer</h2>
+      <p>I build beautiful and functional websites that help businesses grow online</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Hire Me</a>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-circle">
+        <img src="https://via.placeholder.com/300" alt="Profile Photo"/>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About <span class="highlight">Me</span></h2>
+        <p>Get to know me better</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://via.placeholder.com/400x400" alt="About Me"/>
+          <div class="experience-badge">
+            <span>5+</span>
+            <p>Years Experience</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Who Am I?</h3>
+          <p>I am a passionate Full Stack Web Developer with over 5 years of experience building modern web applications. I love turning ideas into reality through clean and efficient code.</p>
+          <p>I specialize in creating responsive, user-friendly websites using the latest technologies and best practices.</p>
+          <div class="about-info">
+            <div class="info-item">
+              <span>Name:</span>
+              <p>John Doe</p>
+            </div>
+            <div class="info-item">
+              <span>Email:</span>
+              <p>john@email.com</p>
+            </div>
+            <div class="info-item">
+              <span>Location:</span>
+              <p>New York, USA</p>
+            </div>
+            <div class="info-item">
+              <span>Available:</span>
+              <p>Freelance Work</p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary">Download CV</a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="skills">
+        <h3>My Skills</h3>
+        <div class="skill-bars">
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>HTML/CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Node.js</span>
+              <span>85%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>React</span>
+              <span>80%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>MongoDB</span>
+              <span>75%</span>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>My <span class="highlight">Services</span></h2>
+        <p>What I can do for you</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>I build fast, responsive and modern websites using the latest technologies</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile Design</h3>
+          <p>Creating mobile-friendly designs that work perfectly on all screen sizes</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Backend Development</h3>
+          <p>Building powerful server-side applications with Node.js and databases</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Designing beautiful user interfaces with great user experience</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>SEO Optimization</h3>
+          <p>Helping your website rank higher on Google and other search engines</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Always available to help you with any issues or questions you have</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS SECTION ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h2 class="counter" data-target="150">0</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-item">
+          <h2 class="counter" data-target="80">0</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+          <h2 class="counter" data-target="5">0</h2>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+          <h2 class="counter" data-target="20">0</h2>
+          <p>Awards Won</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO SECTION ===== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>My <span class="highlight">Portfolio</span></h2>
+        <p>Some of my recent work</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="web">
+          <img src="https://via.placeholder.com/400x300" alt="Project 1"/>
+          <div class="portfolio-overlay">
+            <h3>E-Commerce Website</h3>
+            <p>Web Development</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="app">
+          <img src="https://via.placeholder.com/400x300" alt="Project 2"/>
+          <div class="portfolio-overlay">
+            <h3>Food Delivery App</h3>
+            <p>App Design</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="design">
+          <img src="https://via.placeholder.com/400x300" alt="Project 3"/>
+          <div class="portfolio-overlay">
+            <h3>Dashboard Design</h3>
+            <p>UI/UX Design</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="web">
+          <img src="https://via.placeholder.com/400x300" alt="Project 4"/>
+          <div class="portfolio-overlay">
+            <h3>Portfolio Website</h3>
+            <p>Web Development</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="app">
+          <img src="https://via.placeholder.com/400x300" alt="Project 5"/>
+          <div class="portfolio-overlay">
+            <h3>Chat Application</h3>
+            <p>App Development</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="design">
+          <img src="https://via.placeholder.com/400x300" alt="Project 6"/>
+          <div class="portfolio-overlay">
+            <h3>Landing Page</h3>
+            <p>Web Design</p>
+            <a href="#" class="portfolio-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>Client <span class="highlight">Reviews</span></h2>
+        <p>What my clients say about me</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Amazing work! John built our website in record time and it looks absolutely stunning. Highly recommended!"</p>
+          <div class="client-info">
+            <img src="https://via.placeholder.com/50" alt="Client"/>
+            <div>
+              <h4>Sarah Johnson</h4>
+              <span>CEO, TechCorp</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Professional, skilled and very responsive. John delivered exactly what we needed. Will work with him again!"</p>
+          <div class="client-info">
+            <img src="https://via.placeholder.com/50" alt="Client"/>
+            <div>
+              <h4>Mike Williams</h4>
+              <span>Manager, StartupXYZ</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Best developer I have worked with. Clean code, great communication and delivered on time. 10/10!"</p>
+          <div class="client-info">
+            <img src="https://via.placeholder.com/50" alt="Client"/>
+            <div>
+              <h4>Emily Davis</h4>
+              <span>Founder, DesignHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <p>Get in touch with me</p>
+      </div>
+      <div class="contact-content">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Let's Talk!</h3>
+          <p>Have a project in mind? Let's work together to make it happen.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>New York, USA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>john@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 234 567 890</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="userName" placeholder="Your Name" required/>
+              </div>
+              <div class="form-group">
+                <input type="email" id="userEmail" placeholder="Your Email" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required/>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formMessage"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-code"></i> WebSite
+          <p>Building the web, one line at a time.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h4>Services</h4>
+          <ul>
+            <li>Web Development</li>
+            <li>Mobile Design</li>
+            <li>Backend Development</li>
+            <li>UI/UX Design</li>
+            <li>SEO Optimization</li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe to get latest updates</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email"/>
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 WebSite. All rights reserved. Made with ❤️ by John Doe</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
